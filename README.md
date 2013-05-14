@@ -2,7 +2,23 @@
 
 Simple gem that uses the gems 'prowl' and 'ruby-notify-my-android'.
 
-It simplifies these two gems down to a very simple API, as such:
+It simplifies these two gems down to a very simple API: `Bellow.notify(people, title, message)`
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'bellow'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install bellow
+
+## Usage
 
 ```ruby
 # Create your structure
@@ -25,24 +41,6 @@ message = "Hey guys I just ordered a Big Mac LOL"
 # Notify them all with Bellow
 Bellow.notify(people, app, message)
 ```
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'bellow'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install bellow
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
